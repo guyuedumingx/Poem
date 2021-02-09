@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="40dp"
+        app:cardBackgroundColor="#eba"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        app:cardCornerRadius="20dp">
+
+    <TextView
+        android:id="@+id/poem_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/poem_writer"
+        android:layout_marginTop="68dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/poem_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:maxLines="10"
+        android:padding="20dp"
+        android:textAlignment="gravity"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

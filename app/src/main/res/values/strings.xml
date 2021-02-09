@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">诗集</string>
+    <string name="tab_text_1">搜索</string>
+    <string name="tab_text_2">发现</string>
+    <string name="tab_text_3">详情</string>
+    <string name="search_but_text">Search</string>
+    <string name="content">来是空言去绝踪，月斜楼上五更钟。\n
+梦为远别啼难唤，书被催成墨未浓。\n
+蜡照半笼金翡翠，麝熏微度绣芙蓉。\n
+刘郎已恨蓬山远，更隔蓬山一万重！\n</string>
+
+</resources>
